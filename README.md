@@ -1,4 +1,4 @@
-# Jaana Ysabel Rubio 👋
+# Jaana Ysabel Rubio
 
 🎓 BS Information Technology Student (2022–2026)  
 🏫 STI College Malolos  
