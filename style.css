@@ -1,52 +1,82 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f5f7fa;
-    color: #333;
+    background-color: #fdf6f8; /* very soft pink background */
+    color: #4a4a4a;
 }
 
+/* HERO HEADER */
 header {
-    background: linear-gradient(135deg, #6a5acd, #836fff);
-    color: white;
+    background: linear-gradient(135deg, #f8c8dc, #d8e8dc); /* pastel pink to sage */
+    color: #3a5a40;
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 38px;
+    font-weight: 600;
 }
 
 header p {
     margin-top: 10px;
     font-size: 18px;
+    opacity: 0.9;
 }
 
+/* SECTIONS */
 section {
     max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 20px; /* soft edges */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* soft shadow */
 }
 
+/* SECTION TITLES */
 h2 {
-    color: #6a5acd;
-    border-bottom: 2px solid #6a5acd;
-    padding-bottom: 5px;
+    color: #6b9080; /* sage green */
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
+/* LIST STYLING */
 ul {
-    list-style-type: square;
-    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 0;
 }
 
+ul li {
+    padding: 8px 0;
+    position: relative;
+}
+
+/* cute sage bullet dots */
+ul li::before {
+    content: "•";
+    color: #a3b18a;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+}
+
+/* CONTACT */
 .contact p {
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #eee;
+    padding: 25px;
+    background-color: #d8e8dc; /* sage tint */
     font-size: 14px;
-    margin-top: 40px;
+    margin-top: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: #3a5a40;
 }
